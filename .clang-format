@@ -1,0 +1,13 @@
+# Match the repository's four-space teaching examples. Format only the files
+# being edited; this configuration does not require reformatting older lessons.
+BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 80
+PointerAlignment: Right
+ReferenceAlignment: Right
+DerivePointerAlignment: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+InsertBraces: true
+SeparateDefinitionBlocks: Always

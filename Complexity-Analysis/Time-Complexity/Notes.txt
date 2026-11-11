@@ -1,0 +1,7 @@
+// growth = change in instructions / change in input size.
+
+// const, logn srt(n), n, nlogn, n^2, n^3, 2^n
+
+# Worst case time complexity -> Big O -> O(n)
+# Best case time complexity -> Big omega -> omega(n)
+# Average case time complexity -> Big theta -> theta(n)

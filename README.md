@@ -14,6 +14,13 @@ choose practice questions. **[`CONCEPTS.md`](CONCEPTS.md)** maps the topic cover
 Specialist algorithms and systems examples are educational demonstrations;
 their input assumptions and complexity notes are part of each lesson.
 
+## System design
+
+Start with [the system-design learning path](System-Design/README.md): foundations,
+48 executable models, eight high-level design walkthroughs, and an explicit
+[coverage/extension inventory](System-Design/COVERAGE.md). Run its examples and
+failure regressions with `python3 scripts/check_system_design.py`.
+
 ## Running a file
 
 Compile and run any `.cpp` file without leaving a binary in the repository:
@@ -65,6 +72,10 @@ update step numbers and module ranges, and check navigation with:
 ```bash
 python3 scripts/check_curriculum.py
 ```
+
+Personal scratch files such as root-level `learning.cpp` can be listed in
+`.curriculumignore`; they remain runnable but are excluded from numbered
+curriculum entries and lesson counts.
 
 For an additional runtime check on a lesson:
 
